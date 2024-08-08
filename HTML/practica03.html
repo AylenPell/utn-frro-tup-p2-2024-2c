@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 03</title>
+</head>
+<body>
+    <h1>Ejercicio 03</h1>
+    <div>
+        <h3>Ejercicio 01</h3>
+        <p>Confeccionar un formulario que solicite el ingreso del nombre de una
+            persona y su edad. Disponer un botón de tipo submit para el envío de
+            los datos.</p>
+        <form action="">
+            <input type="text" name="nombre" placeholder="Tu nombre">
+            <input type="number" name="edad" placeholder="Edad">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div>
+        <h3>Ejercicio 02</h3>
+        <p>Confeccionar un formulario que solicite el ingreso de mail de una
+            persona y luego pida el ingreso de su clave dos veces (recordar
+            inicializar la propiedad name del elemento input con distintos nombres
+            para cada control)</p>
+        <form action="">
+            <input type="email" name="mail" placeholder="tumail@mail.com">
+            <input type="password" name="password" placeholder="Contraseña">
+            <input type="password" name="password2" placeholder="Repeti contraseña">
+        </form>
+    </div>
+    <div>
+        <h3>Ejercicio 03</h3>
+        <p>Confeccionar un formulario que permita ingresar el nombre de una
+            persona, su mail, su dni (documento nacional de identidad) y finalmente
+            su curriculum (este último dato hacerlo utilizando un textarea)
+            </p>
+        <form action="">
+            <input type="text" name="nombre" placeholder="Tu nombre">
+            <input type="email" name="mail" placeholder="tumail@mail.com">
+            <input type="number" name="dni" placeholder="DNI">
+            <textarea name="cv" name="cv" placeholder="Escribi tu CV" maxlength="500"></textarea>
+        </form>
+    </div>
+    <div>
+        <h3>Ejercicio 04</h3>
+        <p>Confeccione un formulario que solicite el ingreso de un mail, una clave y
+            luego muestre una serie de títulos de películas con su respectivo
+            checkbox. Disponer también del botón de tipo submit para el envío de
+            datos al servidor.</p>
+            <input type="text" name="nombre" placeholder="Tu nombre">
+            <input type="email" name="mail" placeholder="tumail@mail.com">
+            <div><input type="checkbox" name="peli1"> <label for="peli1">Nueve reinas</label></div>
+            <div><input type="checkbox" name="peli2"> <label for="peli2">La suerte esta echada</label></div>
+            <div><input type="checkbox" name="peli3"> <label for="peli3">El secreto de sus ojos</label></div>
+            <button type="submit">Enviar</button>
+    </div>
+    <div>
+        <h3>Ejercicio 05</h3>
+        <p>Confeccionar un formulario que solicite cual sistema operativo utiliza
+            más (linux o windows). Usar control Radio</p>
+        <p>Que sistema operativo utiliza mas usted señor/a?</p>
+        <input type="radio" name="os1"> <label for="os1">Linux</label>
+        <input type="radio" name="os2"> <label for="os2">Windows</label>
+    </div>
+    <div>
+        <h3>Ejercicio 06</h3>
+        <p>Confeccionar un formulario que muestre en un control select una serie
+            de mails. Luego permitir que el visitante seleccione uno o varios mails
+            del cuadro de selección.</p>
+        <p>Seleccione un mail de la lista</p>
+        <select multiple name="mails">
+            <option value="mail1">aylen.pell@gmail.com</option>
+            <option value="mail2">aylen.pell@icloud.com</option>
+            <option value="mail3">a.pell@hotmail.com.ar</option>
+        </select>
+    </div>
+    <div>
+        <h3>Ejercicio 07</h3>
+        <p>Confeccione un control de tipo select con los nombres de países de
+            América y Europa. Agrupe los países por continente.</p>
+        <select name="paises" id="">
+            <optgroup label="AMERICA">
+                <option value="argentina">Argentina</option>
+                <option value="brasil">Brasil</option>
+                <option value="chile">Chile</option>
+                <option value="colombia">Colombia</option>
+                <option value="ecuador">Ecuador</option>
+                <option value="peru">Perú</option>
+                <option value="uruguay">Uruguay</option>
+            </optgroup>
+            <optgroup label="EUROPA">
+                <option value="alemania">Alemania</option>
+                <option value="francia">Segundo Francia</option>
+                <option value="italia">Italia</option>
+                <option value="españa">España</option>
+                <!-- Agrega aquí más países de Europa según sea necesario -->
+            </optgroup>
+        </select>
+    </div>
+    <div>
+        <h3>Ejercicio 08</h3>
+        <p>Confeccionar un formulario que solicite el ingreso del nombre de una
+            persona y permita votar el sitio. Mediante un cuadro de selección el
+            visitante puede elegir entre las siguientes opciones: Excelente, Muy
+            Bueno, Bueno, Regular y Malo.</p>
+        <p>Que tan bueno es este sitio?</p>
+        <select name="voto" id="">
+            <option value="excelente">Excelente</option>
+            <option value="muybueno">Muy bueno</option>
+            <option value="bueno">Bueno</option>
+            <option value="regular">Regular</option>
+            <option value="malo">Malo</option>
+            <option value="muymalo">Muy MALO</option>
+        </select>
+    </div>
+</body>
+</html>
